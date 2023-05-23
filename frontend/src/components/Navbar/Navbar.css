@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+.navbar{
+    height: 6rem;
+    width: 100vw;
+    /* /* border: 1px solid red; */
+    /* margin-top: 5rem;  */
+    color: white !important;
+    background-color: black;
+}
+
+.container>span{
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Ms Madi', cursive;
+
+}
+.container>span>span{
+    color: palevioletred !important;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-toggler-icon{
+    color: palevioletred;
+}
+.nav-item{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+
+}
+/* ..........media quiry............... */
+@media screen and (min-width:0px) and (max-width:480px){
+    .navbar{
+        max-width: 480px;
+        border: 1px solid wheat;
+        
+    }
+   
+   
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .navbar{
+        max-width: 768px;
+        
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .navbar{
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .navbar{
+        max-width: 1200px;
+    }
+
+}
+@media screen and (min-width:1201px){
+    .navbar{
+        min-width: auto;
+    }
+.container{
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+
+}

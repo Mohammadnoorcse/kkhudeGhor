@@ -1,0 +1,15 @@
+.deshboard{
+    width: 100vmax;
+    height: 50vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+}
+.deshboard-content{
+    width: 90vmax;
+    height: 45vmax;
+    border: 1px saddlebrown solid;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+.advisordetail{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.advisordetail-content{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    /* border: 1px solid red; */
+}
+.advisordetail-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.advisordetail-left img{
+    width: 19rem;
+    height: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2rem;
+}
+
+/* RIGHT */
+.advisordetail-right h1{
+    margin-top: 7rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 0px 11px 10px rgba(81,67,21,0.8);
+    margin-bottom:2rem ;
+}
+.advisordetail-textItem{
+    display: flex;
+    gap: 1rem;
+}
+.advisordetail-textItem>span{
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* ____________media quary______________ */
+
+
+
+
+@media screen and (min-width:0px) and (max-width:480px){
+    .advisordetail{
+        max-width: 480px;
+        
+    }
+    .advisordetail-content{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .advisordetail-right{
+        display: none;
+    }
+    
+   
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .advisordetail{
+        max-width: 768px;
+        overflow-x: hidden;
+    }
+    .advisordetail-content{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .advisordetail-left{
+        display: flex;
+        align-items: start;
+
+    }
+    .advisordetail-left {
+     
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .advisordetail{
+        max-width: 1024px;
+    }
+    .advisordetail-content{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .advisordetail-left{
+        display: flex;
+        align-items: start;
+
+    }
+    .advisordetail-left img{
+     width: 10rem;
+
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .advisordetail{
+        max-width: 1200px;
+    }
+    .advisordetail-content{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .advisordetail-left{
+        display: flex;
+        align-items: start;
+        margin-right: 2rem;
+    }
+    .advisordetail-left img{
+     width: 15rem;
+
+    }
+
+}
+ @media screen and (min-width:1201px){
+    .advisordetail{
+        min-width: auto;
+    }
+    .advisordetail-left{
+        margin-right: 3rem;
+    }
+
+}  

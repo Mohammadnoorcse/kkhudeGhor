@@ -1,0 +1,24 @@
+.profile{
+    width: 100vmax;
+    height: 40vmax;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+.profile-content>h1{
+  font-size: 1.4vmax;
+  font-weight: bold;
+  margin-bottom: 1vmax;
+  text-align: center;
+
+}
+.profile-item{
+    display: flex;
+    gap: 2vmax;
+}
+.profile-one>img{
+ width: 20vmax;
+ height: 25vmax;
+ border-radius: 1vmax;
+}

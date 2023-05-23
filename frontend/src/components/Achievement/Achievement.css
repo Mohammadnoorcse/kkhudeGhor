@@ -1,0 +1,194 @@
+.achievement{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFBEA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievement-content{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 3rem;
+    /* display: flex; */
+    /* justify-content: center;
+     */
+     /* align-items: center; */
+}
+.text h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.text p{
+    font-size: 1.3rem;
+}
+.achievement-main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.achievement-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.achievement-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.achievement-card{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+  
+.achievement-carditem{
+    display: flex;
+    flex-direction: column;
+    width: 9rem;
+    height: 9rem;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.achievement-carditem:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    background-color:bisque;
+    
+}
+.achievement-carditem>span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:480px){
+    .achievement{
+        max-width: 480px;
+        height: auto;
+    }
+    .achievement-content{
+        max-width: 480px;
+        height: auto;
+    }
+    .text h1{
+        font-size: 1rem;
+    }
+    .text p{
+        display: none;
+    }
+    .achievement-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .achievement-video{
+    display: none;
+   }
+   .achievement-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.achievement-carditem{
+    display: flex;
+    flex-direction: column;
+    width: 5rem;
+    height: 5rem;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.achievement-carditem>span{
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+   
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .achievement{
+        max-width: 768px;
+        height: auto;
+    }
+    .achievement-content{
+        max-width: 700px;
+    }
+    .text p{
+        /* text-align: center; */
+        display: none;
+    }
+    .achievement-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .text h1{
+        font-size: 1.2rem;
+    }
+
+    
+} 
+
+@media screen and (min-width:769px) and (max-width:1024px){
+   .achievement{
+    max-width: 1024px;
+    height: auto;
+   }
+   .achievement-content{
+    padding-bottom: 5rem;
+   }
+   .achievement-item{
+    margin-left: 5rem;
+   }
+   .achievement-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.achievement-carditem{
+    display: flex;
+    flex-direction: column;
+    width: 7rem;
+    height: 7rem;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .achievement{
+        max-width: 1200px;
+        height: auto;
+    }
+    
+}
+/* @media screen and (min-width:1201px) {
+    .achievement{
+        width: auto;
+        height: auto;
+    }
+    .achievement-content{
+        width: auto;
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    .text p{
+        width: 39rem;
+    }
+    .achievement-video{
+        padding-left: 3rem;
+    }
+    
+} */

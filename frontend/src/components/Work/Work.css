@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+.work{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(to top,#ffafbd,#ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.page{
+    width: 96%;
+    height: 96%;
+    background-color: white;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.work-content{
+    width: 51rem;
+    
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.text>span:nth-child(1){
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: 'Sriracha', cursive;
+}
+.text>span:nth-child(2){
+
+    font-size: 1.2rem;
+    font-weight: 300;
+
+}
+
+.text>span:nth-child(3){
+font-size: 1.3rem;
+font-weight: 300;
+padding-top: 2rem;
+font-family: 'Dancing Script', cursive;
+}
+.content{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 5rem;
+    justify-content: center;
+    cursor: pointer;
+}
+.content-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 2s ease;
+    width:17rem;
+    height: 15rem;
+}
+.content-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-20px);
+}
+.content-item img{
+    width: 10rem;
+    height: 10rem;
+    
+
+}
+
+
+/* ..........media quiry............... */
+@media screen and (min-width:0px) and (max-width:480px){
+    .work{
+        max-width:480px;
+        height: auto;
+        
+        
+    }
+    .text{
+        padding: 0 4rem;
+    }
+    .content{
+        display: none;
+    }
+   
+    
+
+   
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    .work{
+        max-width:768px;
+        height: auto;
+        
+    }
+    .text{
+        padding: 0 4rem;
+    }
+    .content{
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .work{
+        max-width:1024px;
+       height: auto;
+    }
+    .text{
+        padding: 0 4rem;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .work{
+        max-width:1200px;
+        height: auto;
+    }
+    .text{
+        padding: 0 4rem;
+    }
+
+}
+@media screen and (min-width:1201px){
+    .work{
+        min-width: auto;
+        height: auto;
+    }
+    .text{
+        padding: 0 4rem;
+    }
+
+
+
+}

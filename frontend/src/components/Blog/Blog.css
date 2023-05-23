@@ -1,0 +1,162 @@
+.blog{
+    width: 100vw;
+    /* height: auto; */
+    height: 100vh;
+    /* border: 1px solid red; */
+    background-image:linear-gradient(#ffafbd,#ffc3a0);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+ 
+}
+
+.blog>span{
+    margin-top: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    
+}
+
+.blog>span>span{
+    color: blue;
+}
+.blog-content{
+    display: flex;
+    gap: 1rem;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+.blog-item{
+    width: 18rem;
+    height: 25rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+}
+.blog-item:hover h1,.blog-item:hover button{
+color: green;
+
+}
+.blog-item h1{
+    margin-top: 3rem;
+}
+    
+
+/* limition world in css */
+
+.blog-text {
+    position: relative;
+    
+    color: black;
+    width: 250px; /* Could be anything you like. */
+    margin-top: 3rem;
+    /* padding: 1rem; */
+    padding-left: 1rem;
+    margin-bottom:2rem ;
+  }
+ 
+  .text-concat {
+    position: relative;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+    line-height: 1.2em;
+    text-align:justify;
+    font-size: 1.2rem;
+  }
+  
+  .blog-text.ellipsis::after {
+    content: "...";
+    position: absolute;
+    right: -12px; 
+    bottom: 4px;
+    color: red;
+  }
+
+  .blog-item .Button{
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border-radius: 5rem;
+    /* background-color: green; */
+    background-color: #ffc3a0;
+
+  }
+
+/* ..........media quiry............... */
+@media screen and (min-width:0px) and (max-width:480px){
+  .blog{
+    max-width:480px;
+      height: auto;
+      
+  }
+  .blog-content{
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+
+ 
+}
+@media screen and (min-width:481px) and (max-width:768px){
+  .blog{
+    max-width:768px;
+    height: auto;
+      
+  }
+  .blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+  .blog{
+    max-width:1024px;
+     height: auto;
+  }
+  .blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+  }
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+  .blog{
+    max-width:1025px;
+      height: auto;
+  }
+  .blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+  }
+
+}
+@media screen and (min-width:1201px){
+  .blog{
+      min-width: auto;
+      height: auto;
+  }
+  .blog-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+
+  }
+
+
+
+}

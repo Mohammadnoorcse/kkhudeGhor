@@ -1,0 +1,54 @@
+.blogCreate{
+    width: 100vmax;
+    height: 50vmax;
+    display: flex;
+    justify-content: center;
+}
+.blogc-content{
+    width: 50%;
+    height: 80%;
+    background-color: wheat;
+    border-radius: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* *****************blog********************* */
+
+.blog-Container{
+    width: 100vmax;
+    height: 50vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.blogs-content{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 2vmax;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.blogs-content>h1{
+    font-size: 2vmax;
+    color: red;
+    font-style: italic;
+    margin-top: 5vmax;
+    font-weight: bold;
+
+}
+
+#blogtable{
+    width: 80%;
+    height: 30%;
+    text-align: center;
+}

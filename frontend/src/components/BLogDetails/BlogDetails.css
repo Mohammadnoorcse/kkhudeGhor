@@ -1,0 +1,35 @@
+.blogdetail{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.blogdetail-text{
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    height: 60rem;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+}
+.blogdetail-text:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.blogdetail-text>span:nth-child(1){
+    font-size: 3rem;
+    font-weight: bold;
+    color: green;
+    
+}
+
+.blogdetail-text>span:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
